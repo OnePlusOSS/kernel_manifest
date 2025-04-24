@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
+  <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
+  <remote fetch="https://github.com/OnePlusOSS" name="origin"/>
+  <remote fetch="https://github.com/realme-kernel-opensource" name="realme"/>
+  <project remote="origin" name="android_kernel_common_oneplus_sm8650" path="kernel_platform/common" revision="oneplus/sm8650_v_15.0.0_oneplus12" clone-depth="1">
+    <linkfile dest="kernel_platform/.source_date_epoch_dir" src="."/>
+  </project>
+  <project remote="realme" name="realme_GT5pro-AndroidV-kernel-source" path="kernel_platform/msm-kernel" revision="master" clone-depth="1">
+    <linkfile dest="kernel_platform/WORKSPACE" src="bazel.WORKSPACE"/>
+    <linkfile dest="kernel_platform/build_with_bazel.py" src="build_with_bazel.py"/>
+  </project>
+  <project remote="realme" name="realme_GT5pro-AndroidV-vendor-source" path="./" revision="master" clone-depth="1"/>
+  <project remote="clo-la" name="kernel/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" revision="d153b7ab4a4956198957e258d4f370e875c53059" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1">
+    <linkfile dest="kernel_platform/build/prebuilts/kernel-build-tools" src="."/>
+  </project>
+  <project remote="clo-la" name="kernel_platform/build/bazel_common_rules" path="kernel_platform/build/bazel_common_rules" revision="415b543d5e1d270a22f8c6ae9d848b3560472062" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1"/>
+  <project remote="clo-la" name="kernel_platform/external/bazel-skylib" path="kernel_platform/external/bazel-skylib" revision="7fdbc462f5001b7e82f026aa90bd43c494e2a8d8" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1"/>
+  <project remote="clo-la" name="kernel_platform/external/dtc" path="kernel_platform/external/dtc" revision="3a8c1bbce993f9143835c7f40eeefcdf948cfaf5" upstream="refs/heads/kernel.build.lnx.1.0.r15-rel" clone-depth="1"/>
+  <project remote="clo-la" name="kernel_platform/external/python/absl-py" path="kernel_platform/external/python/absl-py" revision="e46584edbb247bf79c74c4f105b6fff18234cee8" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1"/>
+  <project remote="clo-la" name="kernel_platform/external/stardoc" path="kernel_platform/external/stardoc" revision="0d74fed6f8d0844f696771e71bc0b071cae99021" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1"/>
+  <project remote="clo-la" name="kernel_platform/prebuilts/bazel/linux-x86_64" path="kernel_platform/prebuilts/bazel/linux-x86_64" revision="eee09422f02e60f28192bcb5a8ce8660baba6706" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1"/>
+  <project remote="clo-la" name="kernel_platform/prebuilts/build-tools" path="kernel_platform/prebuilts/build-tools" revision="cad7e11de82b3307000e09c9d539b2700bd17aea" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1">
+    <linkfile dest="kernel_platform/build/prebuilts/build-tools" src="."/>
+  </project>
+  <project remote="clo-la" name="kernel_platform/prebuilts/clang-tools" path="kernel_platform/prebuilts/clang-tools" revision="0613fc5443d035335a9541994607bacae03750f2" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1">
+    <linkfile dest="kernel_platform/build/prebuilts/clang-tools" src="."/>
+  </project>
+  <project remote="clo-la" name="kernel_platform/prebuilts/jdk/jdk11" path="kernel_platform/prebuilts/jdk/jdk11" revision="ced68c9308cbc1b6ec3e602dba8d0d56df8b6d73" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1"/>
+  <project remote="clo-la" name="kernel_platform/system/tools/mkbootimg" path="kernel_platform/tools/mkbootimg" revision="b17f184a20744a7e0a421f901bdf20a23be22b07" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1"/>
+  <project remote="clo-la" name="kernel_platform/toolchain/prebuilts/ndk/r23" path="kernel_platform/prebuilts/ndk-r23" revision="269a5dc9e862f78dc2030d9262f73cb2642b8127" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1"/>
+  <project remote="clo-la" name="kernelplatform/prebuilts-master/clang/host/linux-x86" path="kernel_platform/prebuilts/clang/host/linux-x86" revision="28b975ada54f8610ed531a6b57253aed10e7c87d" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1"/>
+  <project remote="clo-la" name="kernelplatform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="kernel_platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="dd099b5d68822602228e2af66693e61e7b54e0a9" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1">
+    <linkfile dest="kernel_platform/build/build-tools/sysroot" src="sysroot"/>
+  </project>
+</manifest>
