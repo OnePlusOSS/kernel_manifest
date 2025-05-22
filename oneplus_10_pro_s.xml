@@ -9,7 +9,7 @@
     <linkfile dest="kernel_platform/common/build.config.msm.waipio.tuivm" src="build.config.msm.waipio.tuivm"/>
     <linkfile dest="kernel_platform/common/build.config.msm.lahaina" src="build.config.msm.lahaina"/>
   </project>
-  <project remote="origin" name="android_kernel_modules_and_devicetree_oneplus_sm8450" path="./" revision="oneplus/sm8450_s_12.1_10_pro"/>
+  <project remote="origin" name="android_kernel_modules_and_devicetree_oneplus_sm8450" path="./" revision="oneplus/sm8450_s_12.1.0_oneplus_10_pro"/>
   <project remote="caf" name="kernel/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" revision="10ab783184f77d3ea15bf666426a7138b0f62bfc" upstream="ks-kernel.lnx.1.0.r1-rel"/>
   <project rmote="caf" name="kernel_platform/external/dtc" revision="b5a44a6e8c72c9fc5d72c6cff09ee3b9a86da769" upstream="kernel.build.lnx.1.0.r1-rel"/>
   <project remote="caf" name="kernel_platform/kernel/prebuilts/mainline/arm64" revision="de12e10cfe8d67d5c0627069306fda939f52154a" upstream="kernel.lnx.5.10.r1-rel"/>
