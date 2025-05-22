@@ -3,8 +3,8 @@
   <remote fetch="https://git.codelinaro.org/clo/la" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="kernel.build.lnx.1.0" sync-j="8"/>
   <remote fetch="https://github.com/OnePlusOSS" name="origin"/>
-  <project remote="origin" name="android_kernel_common_oneplus_sm8450" path="kernel_platform/common" revision="oneplus/sm8450_s_12.1.0_10_pro"/>
-  <project remote="origin" name="android_kernel_oneplus_sm8450" path="kernel_platform/msm-kernel" revision="oneplus/sm8450_s_12.1.0_10_pro">
+  <project remote="origin" name="android_kernel_common_oneplus_sm8450" path="kernel_platform/common" revision="oneplus/sm8450_s_12.1.0_oneplus_10_pro"/>
+  <project remote="origin" name="android_kernel_oneplus_sm8450" path="kernel_platform/msm-kernel" revision="oneplus/sm8450_s_12.1.0_oneplus_10_pro">
     <linkfile dest="kernel_platform/common/build.config.msm.waipio" src="build.config.msm.waipio"/>
     <linkfile dest="kernel_platform/common/build.config.msm.waipio.tuivm" src="build.config.msm.waipio.tuivm"/>
     <linkfile dest="kernel_platform/common/build.config.msm.lahaina" src="build.config.msm.lahaina"/>
