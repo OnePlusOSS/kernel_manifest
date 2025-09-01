@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="aosp" fetch="https://android.googlesource.com/" review="https://android.googlesource.com/" />
+  <remote name="aosp" fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/" review="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/" />
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
   <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
-  <remote fetch="https://github.com/OnePlusOSS" name="origin"/>
+  <remote fetch="https://dgithub.xyz/OnePlusOSS" name="origin"/>
   <project remote="origin" name="android_kernel_common_oneplus_sm8750" path="kernel_platform/common" revision="oneplus/sm8750_v_15.0.0_oneplus_ace5_pro">
     <linkfile dest="kernel_platform/.source_date_epoch_dir" src="."/>
   </project>
