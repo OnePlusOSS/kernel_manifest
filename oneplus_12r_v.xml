@@ -2,8 +2,8 @@
 <manifest>
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
   <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
-  <remote fetch="https://github.com/OnePlusOSS" name="origin"/>
-  <project remote="origin" name="android_kernel_common_oneplus_sm8550" path="kernel_platform/common" revision="oneplus/sm8550_v_15.0.0_oneplus_12r">
+  <remote fetch="https://github.com/fengfansjtu" name="origin"/>
+  <project remote="origin" name="kerneltest" path="kernel_platform/common" revision="oneplus/sm8550_v_15.0.0_oneplus_12r">
     <linkfile dest=".source_date_epoch_dir" src="."/>
   </project>
   <project remote="origin" name="android_kernel_oneplus_sm8550" path="kernel_platform/msm-kernel" revision="oneplus/sm8550_v_15.0.0_oneplus_12r"/>
