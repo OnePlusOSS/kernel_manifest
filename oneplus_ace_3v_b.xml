@@ -29,8 +29,8 @@
   <project remote="clo-la" name="kernel_platform/prebuilts/jdk/jdk11" path="kernel_platform/prebuilts/jdk/jdk11" revision="ced68c9308cbc1b6ec3e602dba8d0d56df8b6d73" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel"/>
   <project remote="clo-la" name="kernel_platform/system/tools/mkbootimg" path="kernel_platform/tools/mkbootimg" revision="b17f184a20744a7e0a421f901bdf20a23be22b07" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel"/>
   <project remote="clo-la" name="kernel_platform/toolchain/prebuilts/ndk/r23" path="kernel_platform/prebuilts/ndk-r23" revision="269a5dc9e862f78dc2030d9262f73cb2642b8127" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel"/>
-  <project remote="clo-la" name="kernelplatform/prebuilts-master/clang/host/linux-x86" path="kernel_platform/prebuilts/clang/host/linux-x86" revision="28b975ada54f8610ed531a6b57253aed10e7c87d" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel"/>
-  <project remote="clo-la" name="kernelplatform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="kernel_platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="dd099b5d68822602228e2af66693e61e7b54e0a9" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel">
+  <project remote="clo-la" name="kernel_platform/prebuilts-master/clang/host/linux-x86" path="kernel_platform/prebuilts/clang/host/linux-x86" revision="28b975ada54f8610ed531a6b57253aed10e7c87d" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel"/>
+  <project remote="clo-la" name="kernel_platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="kernel_platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="dd099b5d68822602228e2af66693e61e7b54e0a9" upstream="refs/heads/ks-kernel.lnx.3.0.r1-rel">
     <linkfile dest="kernel_platform/build/build-tools/sysroot" src="sysroot"/>
   </project>
 </manifest>
